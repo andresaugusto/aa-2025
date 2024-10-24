@@ -7,6 +7,9 @@ body {
 }
 
 @layer utilities {
+  .font-condensed {
+    font-stretch: condensed;
+  }
   .text-balance {
     text-wrap: balance;
   }
@@ -14,6 +17,9 @@ body {
 
 @layer base {
   :root {
-    --radius: 0.5rem;
+    --radius: 0.25rem;
+  }
+  .card {
+    background-color: red,
   }
 }

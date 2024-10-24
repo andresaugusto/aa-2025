@@ -9,15 +9,23 @@ const config: Config = {
   ],
   theme: {
   	extend: {
+			spacing: {
+				sm: ".25rem",
+				md: ".5rem",
+				lg: "8rem",
+				xl: "16rem",
+			},
   		colors: {
   			background: 'var(--background)',
-  			foreground: 'var(--foreground)'
+  			foreground: 'var(--foreground)',
   		},
   		borderRadius: {
-  			lg: 'var(--radius)',
-  			md: 'calc(var(--radius) - 2px)',
-  			sm: 'calc(var(--radius) - 4px)'
-  		}
+				'none': '0',
+				'sm': '.25rem',
+				DEFAULT: '.5rem',
+				'lg': '8rem',
+				'full': '9999px',
+			}
   	}
   },
   plugins: [require("tailwindcss-animate")],
