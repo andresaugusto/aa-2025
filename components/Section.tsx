@@ -15,13 +15,13 @@ export default function Section({ children, title }: SectionProps)  {
     >
       {
         title && 
-          <Card className="z-10 sticky top-md m-md flex justify-end bg-transparent backdrop-blur-sm shadow-0">
-            <CardHeader className="py-md">
-              <MotionH2 className={`${displayFont.className} text-[1.8rem] text-transparent bg-gradient-to-b from-white/70 to-white bg-clip-text`}>
+          <div className="container z-10 sticky top-md my-md mx-auto px-md sm:px-0 flex">
+            <CardHeader className="py-md rounded-md bg-white bg-gradient-to-t from-black/30 to-white/80">
+              <MotionH2 className={`${displayFont.className} text-[1.8rem] text-transparent bg-gradient-to-b from-black/70 to-black bg-clip-text`}>
                 {title}
               </MotionH2>
             </CardHeader>
-          </Card>
+          </div>
       }
       <MotionDiv
         className="mx-md"

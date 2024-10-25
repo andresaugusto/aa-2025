@@ -4,28 +4,28 @@ export const skills: Record<any, any>[] = [
   {
     icon: Monitor,
     title: "UI/UX Design",
-    description: "Creating intuitive and visually appealing user interfaces"
+    description: "Create intuitive and visually appealing user interfaces"
   },
   {
     icon: Code,
     title: "Frontend Development",
-    description: "Building responsive and performant web applications"
+    description: "Build responsive and performant web applications"
   },
   {
     icon: Layers,
     title: "Digital Asset Creation",
-    description: "Developing high-quality graphics and multimedia content"
+    description: "Develop high-quality graphics and multimedia content"
   },
   {
     icon: PenTool,
     title: "Prototyping",
     description: "Rapid prototyping for efficient design iterations"
   },
-  {
-    icon: Star,
-    title: "User Research",
-    description: "Conducting user research to inform design decisions"
-  },
+  // {
+  //   icon: Star,
+  //   title: "User Research",
+  //   description: "Conduct user research to inform design decisions"
+  // },
   {
     icon: Send,
     title: "Project Management",

@@ -23,7 +23,7 @@ export default function Offer({ index, icon: Icon, title, description }: OfferPr
       animate={{ opacity: 1, y: 0, rotateY: 0, rotateX: 0 }}
       transition={{ duration: .75, delay: index*.5}}
     >
-      <Card className="border-none shadow-md shadow-black/50 backdrop-blur-lg bg-black/50 bg-gradient-to-l from-black/90 to-black/20">
+      <Card>
         <CardHeader>
           <MotionDiv
             initial={{ opacity: 0, y: 10, rotateY: -5, rotateX: -90 }}

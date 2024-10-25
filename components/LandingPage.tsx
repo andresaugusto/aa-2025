@@ -8,18 +8,14 @@ import Testimonials from '@/components/Testimonials'
 
 export default function LandingPage() {
   return (
-    <div className="bg-white">
+    <>
       <Background />
       <Hero />
-      <div className="py-lg backdrop-invert backdrop-blur-lg backdrop-saturate-0">
-        <Offers />
-        <Results />
-        <WorkTimeline />
+      <Offers />
+      <Results />
+      <WorkTimeline />
       {/* <Testimonials /> */}
-      </div>
-      <div className="py-lg">
-        <Inquire />
-      </div>
-    </div>
+      <Inquire />
+    </>
   )
 }
