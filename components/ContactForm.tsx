@@ -8,7 +8,7 @@ export default function ContactForm() {
     name: '',
     email: '',
     phone: '',
-    projectDetails: '',
+    message: '',
   })
 
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
@@ -21,7 +21,7 @@ export default function ContactForm() {
     // In a real-world scenario, you'd send this data to a backend service
     console.log('Form submitted:', formData)
     // Reset form after submission
-    setFormData({ name: '', email: '', phone: '', projectDetails: '' })
+    setFormData({ name: '', email: '', phone: '', message: '' })
     alert('Thank you for your message! I\'ll get back to you soon.')
   }
 
@@ -70,13 +70,13 @@ export default function ContactForm() {
         />
       </div>
       <div className="mb-4">
-        <label htmlFor="projectDetails" className="block text-sm font-medium text-gray-300 mb-1">
-          Project Details
+        <label htmlFor="message" className="block text-sm font-medium text-gray-300 mb-1">
+          Inquiry Details
         </label>
         <textarea
-          id="projectDetails"
-          name="projectDetails"
-          value={formData.projectDetails}
+          id="message"
+          name="message"
+          value={formData.message}
           onChange={handleInputChange}
           required
           rows={4}
@@ -92,5 +92,6 @@ export default function ContactForm() {
         Send Message
       </motion.button>
     </form>
+    // <>YERRRR</>
   )
 }

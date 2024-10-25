@@ -2,13 +2,13 @@
 
 import { motion } from 'framer-motion'
 
-interface TestimonialCardProps {
+interface TestimonialProps {
   name: string
   role: string
   content: string
 }
 
-export default function TestimonialCard({ name, role, content }: TestimonialCardProps) {
+export default function Testimonial({ name, role, content }: TestimonialProps) {
   return (
     <motion.div
       whileHover={{ scale: 1.02 }}

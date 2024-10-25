@@ -19,7 +19,4 @@ body {
   :root {
     --radius: 0.25rem;
   }
-  .card {
-    background-color: red,
-  }
 }

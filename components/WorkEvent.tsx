@@ -2,13 +2,13 @@
 
 import { motion } from 'framer-motion'
 
-interface TimelineItemProps {
+interface WorkEventProps {
   year: string
   title: string
   description: string
 }
 
-export default function TimelineItem({ year, title, description }: TimelineItemProps) {
+export default function WorkEvent({ year, title, description }: WorkEventProps) {
   return (
     <motion.div
       initial={{ opacity: 0, x: -50 }}
