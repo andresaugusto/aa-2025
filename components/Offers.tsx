@@ -4,7 +4,7 @@ import Offer from './Offer'
 
 export default function Offers() {
   return (
-    <Section title="Offers">
+    <Section title="Menu">
       <div className="container mx-auto">
         <div className="space-y-md overflow-visible">
           {skills.map((skill: Record<string, any>, index: any) => (

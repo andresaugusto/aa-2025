@@ -7,25 +7,24 @@ import {
   CardHeader,
   CardTitle,
 } from '@/components/ui/card'
-import {
-  Carousel,
-  CarouselContent,
-  CarouselItem,
-  CarouselNext,
-  CarouselPrevious,
-} from "@/components/ui/carousel"
-import Autoplay from "embla-carousel-autoplay"
-import Asset from './Asset'
+// import {
+//   Carousel,
+//   CarouselContent,
+//   CarouselItem,
+//   CarouselNext,
+//   CarouselPrevious,
+// } from "@/components/ui/carousel"
+// import Autoplay from "embla-carousel-autoplay"
+// import GalleryItem from './GalleryItem'
 
-interface ResultProps {
+interface GalleryCollectionsProps {
   index: any
   title: string
   description: string
   image?: string,
-  assets?: Record<any, any>[]
 }
 
-export default function Result({ index, title, description, image, assets }: ResultProps) {
+export default function GalleryCollections({ index, title, description, image }: GalleryCollectionsProps) {
 
   return (
     <MotionDiv
@@ -51,9 +50,8 @@ export default function Result({ index, title, description, image, assets }: Res
           <CardTitle>{title}</CardTitle>
           <CardDescription>{description}</CardDescription>
         </CardHeader>
-        <CardContent>
-          <p>Card Content</p>
-          {/* <Carousel className="w-50">
+        {/* <CardContent>
+          <Carousel className="w-50">
             <CarouselContent className="-ml-1">
               {assets && assets.length>0 && assets.map((asset: Record<string, any>, index: any) => (
                   <CarouselItem key={index} className="pl-1 md:basis-1/2 lg:basis-1/3">
@@ -65,11 +63,11 @@ export default function Result({ index, title, description, image, assets }: Res
             </CarouselContent>
             <CarouselPrevious />
             <CarouselNext />
-          </Carousel> */}
-        </CardContent>
-        <CardFooter>
+          </Carousel>
+        </CardContent> */}
+        {/* <CardFooter>
           <p>Card Footer</p>
-        </CardFooter>
+        </CardFooter> */}
       </Card>
     </MotionDiv>
   )

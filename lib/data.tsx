@@ -1,5 +1,143 @@
 import { Monitor, Code, Layers, PenTool, Star, Send } from 'lucide-react'
 
+export const tools: Record<any, any>[] = [
+  {
+    // icon: "",
+    title: "Next.js",
+  },
+  {
+    // icon: "",
+    title: "React.js",
+  },
+  {
+    // icon: "",
+    title: "Typescript",
+  },
+  {
+    // icon: "",
+    title: "Redux",
+  },
+  {
+    // icon: "",
+    title: "JavaScript",
+  },
+  {
+    // icon: "",
+    title: "Angular",
+  },
+  {
+    // icon: "",
+    title: "Liquid",
+  },
+  {
+    // icon: "",
+    title: "CSS3",
+  },
+  {
+    // icon: "",
+    title: "HTML",
+  },
+  {
+    // icon: "",
+    title: "Storybook",
+  },
+  {
+    // icon: "",
+    title: "Component Libraries",
+  },
+  {
+    // icon: "",
+    title: "Three.js",
+  },
+  {
+    // icon: "",
+    title: "Blockchain",
+  },
+  {
+    // icon: "",
+    title: "Web3.js",
+  },
+  {
+    // icon: "",
+    title: "RainbowKit",
+  },
+  {
+    // icon: "",
+    title: "Ceramic",
+  },
+  {
+    // icon: "",
+    title: "Smart Contracts",
+  },
+  {
+    // icon: "",
+    title: "Decentralized IDs (DIDs)",
+  },
+  {
+    // icon: "",
+    title: "Verifiable Credentials (VCs)",
+  },
+  {
+    // icon: "",
+    title: "GitHub",
+  },
+  {
+    // icon: "",
+    title: "Webflow",
+  },
+  {
+    // icon: "",
+    title: "Shopify",
+  },
+  {
+    // icon: "",
+    title: "Figma",
+  },
+  {
+    // icon: "",
+    title: "Miro",
+  },
+  {
+    // icon: "",
+    title: "Adobe Suite",
+  },
+  {
+    // icon: "",
+    title: "Photoshop",
+  },
+  {
+    // icon: "",
+    title: "Illustrator",
+  },
+  {
+    // icon: "",
+    title: "Jira",
+  },
+  {
+    // icon: "",
+    title: "Confluence",
+  },
+  {
+    // icon: "",
+    title: "Trello",
+  },
+  {
+    // icon: "",
+    title: "Notion",
+  },
+  {
+    // icon: "",
+    title: "Google Suite",
+  },
+
+]
+export const about: Record<any, any> = {
+  greeting: "✌️",
+  p1: "A life, when creative, entitles itself to language. It's how we deliver existence to the world and also the tool we know to process feedback from another. We identify things— we fit them in the context of all else that surrounds us and WE WILL want to stray if something renders itself unapproachable. Take that as the shadow that brings good design to light.",
+  p2: "Tre-flipping, drifting on cambered rubber, gliding along a wave rip, curating spatial and digital experiences, contorting fabric into garments to elevate a body... we all express and are expressed at.",
+  p3: "My full name is Andrés Augusto Ortiz Montalvo, and throught other's and my own mediums, I've dedicated a life to communicating beyond the context of comparatives and predated constructs. Intuitively and pragmatically, I usher creative synthesis and yield ideas for communities to use as language.",
+  footer: "I build homes on the intersection of form and function.",
+}
 export const skills: Record<any, any>[] = [
   {
     icon: Monitor,
@@ -32,48 +170,77 @@ export const skills: Record<any, any>[] = [
     description: "Efficiently managing projects from concept to delivery"
   }
 ]
-
-export const portfolioItems: Record<any, any>[] = [
+export const galleryItems: Record<any, any>[] = [
   {
-    title: "E-commerce Redesign",
-    description: "Revamped UI/UX for a major e-commerce platform",
-    image: "/placeholder.svg?height=300&width=400"
+    title: "Ortiz Mercado + Asociados",
+    description: "Geography, hydraulics, and soil planning documentation convening in decades of collaborative experience",
+    deliveries: "Digital identity assets and online client funnel",
+    date: "Winter 2024",
+    assets: [
+      {
+        src: "",
+        fileType: "image",
+        assetType: "Vector Graphic",
+        title: "OMA Logo (Primary)",
+        description: "Topographic site and documentation symbolism through the firm's initials",
+        technologies: ["Adobe Suite", "Illustrator"],
+        collaborators: ["Augusto Ortiz Mercado"],
+      },
+      {
+        src: "",
+        fileType: "image",
+        assetType: "Vector Graphic",
+        title: "OMA Logo (Binary)",
+        description: "Primary logo in a tux",
+        technologies: ["Adobe Suite", "Illustrator"],
+        collaborators: ["Augusto Ortiz Mercado"],
+      },
+      {
+        src: "",
+        fileType: "video",
+        assetType: "Web App",
+        title: "OMA online channel and service inquiry funnel",
+        description: "Audience reception center and service engagement pathway",
+        technologies: ["Webflow", "Adobe Suite", "Illustrator"],
+        collaborators: ["Augusto Ortiz Mercado"],
+      },
+    ],
   },
   {
-    title: "Mobile App Design",
-    description: "Designed and prototyped a fitness tracking app",
-    image: "/placeholder.svg?height=300&width=400"
+    title: "La Jugossa",
+    description: "Zingiber Spectabile flowers (Gengibre de Colmena) fostered in the business' spatial feature",
+    deliveries: "Digital identity asset",
+    date: "Fall 2024",
+    assets: [
+      {
+        src: "",
+        fileType: "image",
+        assetType: "Vector Graphic",
+        title: "La Jugossa Logo (Primary + Binary)",
+        description: "La Jugossa's minimal identity ethos",
+        technologies: ["Adobe Suite", "Illustrator"],
+        collaborators: ["Karla Mendez"],
+      },
+    ],
   },
   {
-    title: "Brand Identity",
-    description: "Created comprehensive brand guidelines and assets",
-    image: "/placeholder.svg?height=300&width=400"
+    title: "Konscious Brands",
+    description: "Online supermarket of plant-based nutrion alternatives",
+    deliveries: "Work sample: nutrition-themed online supermarket",
+    date: "Spring - Summer 2024",
+    assets: [
+      {
+        src: "",
+        fileType: "video",
+        assetType: "Website",
+        title: "Vegan Health Store",
+        description: "Online store, order tracking, and product inventory buildout",
+        technologies: ["Shopify", "Liquid", "Adobe Suite", "Photoshop"],
+        collaborators: [],
+      },
+    ],
   },
-  {
-    title: "Web Application",
-    description: "Developed a responsive web app for data visualization",
-    image: "/placeholder.svg?height=300&width=400"
-  }
 ]
-
-export const timelineItems: Record<any, any>[] = [
-  {
-    year: "2020 - Present",
-    title: "Senior UI/UX Engineer",
-    description: "Leading UI/UX design and development for enterprise-level projects"
-  },
-  {
-    year: "2017 - 2020",
-    title: "UI/UX Designer",
-    description: "Designed user interfaces for web and mobile applications"
-  },
-  {
-    year: "2014 - 2017",
-    title: "Frontend Developer",
-    description: "Developed responsive and accessible web applications"
-  }
-]
-
 export const testimonials:Record<any, any>[] = [
   {
     name: "John Doe",
