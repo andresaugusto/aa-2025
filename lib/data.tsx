@@ -208,7 +208,7 @@ export const galleryItems: Record<any, any>[] = [
   },
   {
     title: "La Jugossa",
-    description: "Zingiber Spectabile flowers (Gengibre de Colmena) fostered in the business' spatial feature",
+    description: "Gengibre de Colmena (Zingiber Spectabile) fostered in the business' space",
     deliveries: "Digital identity asset",
     date: "Fall 2024",
     assets: [
