@@ -1,3 +1,4 @@
+import { ReduxProvider } from '@/redux/features/provider'
 import './globals.css'
 import GeistMonoVF from 'next/font/local'
 
@@ -10,7 +11,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${geistMonoVF.className} min-h-screen bg-black text-white`}>{children}</body>
+      <body className={`${geistMonoVF.className} min-h-screen bg-black text-white`}>
+        <ReduxProvider>
+          {children}
+        </ReduxProvider>
+      </body>
     </html>
   )
 }
