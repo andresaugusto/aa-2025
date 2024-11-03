@@ -211,7 +211,7 @@ export default function MotionModules() {
       </motion.section>
       {/* Appearance Triggers */}
       <section 
-        ref={containerRef}
+        ref={containerRef} // MotionMain.tsx => setState to redux
         className="flex flex-col gap-10 mb-10"
       >
         <motion.h1 
@@ -223,8 +223,8 @@ export default function MotionModules() {
         >
           Scroll along b, trust ;)
         </motion.h1>
-        <motion.p
-          style={{ translateX: paragraphOneValue }}
+        <motion.p // Animated.tsx => state from redux
+          // style={{ translateX: paragraphOneValue }}
           className="text-slate-100 font-thin text-4xl w-1/2 mx-auto"
         >
           GET / 500 in 16ms 
@@ -232,7 +232,7 @@ export default function MotionModules() {
           ⚠ Fast Refresh had to perform a full reload due to a runtime error.
         </motion.p>
         <motion.p
-          style={{ translateX: paragraphTwoValue }}
+          // style={{ translateX: paragraphTwoValue }}
           className="text-slate-100 font-thin text-4xl w-1/2 mx-auto"
         >
           GET /favicon.ico 200 in 140ms

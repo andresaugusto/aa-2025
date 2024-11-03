@@ -6,7 +6,7 @@ import {
   CardHeader,
   CardTitle,
 } from '@/components/ui/card'
-import { MotionDiv } from '@/components/Motion'
+import { MotionDiv, MotionDivVisible } from '@/components/Motion'
 
 interface OfferProps {
   index?: any
@@ -17,11 +17,8 @@ interface OfferProps {
 
 export default function Offer({ index, icon: Icon, title, description }: OfferProps) {
   return (
-    <MotionDiv
+    <MotionDivVisible
       key={index}
-      initial={{ opacity: 0, y: 10, rotateY: -5, rotateX: -90 }}
-      animate={{ opacity: 1, y: 0, rotateY: 0, rotateX: 0 }}
-      transition={{ duration: .75, delay: index*.5}}
     >
       <Card>
         <CardHeader>
@@ -37,6 +34,6 @@ export default function Offer({ index, icon: Icon, title, description }: OfferPr
           <CardDescription>{description}</CardDescription>
         </CardHeader>
       </Card>
-    </MotionDiv>
+    </MotionDivVisible>
   )
 }

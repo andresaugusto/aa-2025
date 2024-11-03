@@ -5,6 +5,7 @@ type InitialState = {
   value: AuthState
 }
 type AuthState = {
+  pageRef: any
   isAuth: boolean
   isModerator: boolean
   uid: string
@@ -23,17 +24,17 @@ export const auth = createSlice({
   name: "auth",
   initialState,
   reducers: {
-    logIn: (_, action: PayloadAction<string>) => { 
-      // "_" is "state" prop removed shorthand for lack of use
-      return {
-        value: {
-          isAuth: true,
-          isModerator: false,
-          uid: "generate an id",
-          username: action.payload,
-        }
-      }
-    },
+    // logIn: (_, action: PayloadAction<string>) => { 
+    //   // "_" is "state" prop removed shorthand for lack of use
+    //   return {
+    //     value: {
+    //       isAuth: true,
+    //       isModerator: false,
+    //       uid: "generate an id",
+    //       username: action.payload,
+    //     }
+    //   }
+    // },
     logOut: () => {
       return initialState
     },
@@ -43,5 +44,5 @@ export const auth = createSlice({
   }
 })
 
-export const { logIn, logOut, toggleModerator } = auth.actions
+// export const { logIn, logOut, toggleModerator } = auth.actions
 export default auth.reducer

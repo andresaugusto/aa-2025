@@ -1,5 +1,5 @@
 import { ChevronDown } from 'lucide-react'
-import { MotionDiv, MotionH1, MotionP } from '@/components/Motion'
+import { MotionDiv, MotionDivVisible, MotionH1, MotionP } from '@/components/Motion'
 import Section from '@/components/Section'
 
 import Baunk from 'next/font/local'

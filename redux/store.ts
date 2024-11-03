@@ -2,12 +2,12 @@
 
 import { configureStore } from "@reduxjs/toolkit"
 import { TypedUseSelectorHook, useSelector } from "react-redux"
-import authReducer from "./features/auth-slice"
+import motionReducer from "@/redux/features/auth-slice"
 
 export const store = configureStore({
   // reducers take an action and reference a function to the state
   reducer: {
-    authReducer,
+    motionReducer,
   }
 })
 

@@ -2,7 +2,7 @@ import Background from '@/components/Background'
 import Hero from '@/components/Hero'
 import Offers from '@/components/Offers'
 import Gallery from '@/components/Gallery'
-import Menu from '@/components/Menu'
+// import Menu from '@/components/Menu'
 // import MotionModules from './MotionModules'
 // import WorkTimeline from '@/components/WorkTimeline'
 // import Inquire from '@/components/Inquire'
@@ -13,7 +13,7 @@ export default function LandingPage() {
   return (
     <>
       <Background />
-      <Menu />
+      {/* <Menu /> */}
       <Hero />
       <Offers />
       <Gallery />

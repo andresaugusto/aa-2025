@@ -1,7 +1,7 @@
 "use client"
 
 import { useState } from "react"
-import { logOut, logIn, toggleModerator } from "@/redux/features/auth-slice"
+// import { logOut, logIn, toggleModerator } from "@/redux/features/auth-slice"
 import { useDispatch } from "react-redux"
 import { AppDispatch, useAppSelector } from "@/redux/store"
 
@@ -10,16 +10,16 @@ export default function LogIn() {
   const [ username, setUsername ] = useState("")
 
   const dispatch = useDispatch<AppDispatch>()
-  const isAuth = useAppSelector((state) => state.authReducer.value.isAuth)
+  // const isAuth = useAppSelector((state) => state.authReducer.value.isAuth)
 
   const onClickLogIn = () => {
-    dispatch(logIn(username))
+    // dispatch(logIn(username))
   }
   const onClickLogOut = () => {
-    dispatch(logOut())
+    // dispatch(logOut())
   }
   const onClickToggleModerator = () => {
-    dispatch(toggleModerator())
+    // dispatch(toggleModerator())
   }
 
   return (
@@ -30,12 +30,12 @@ export default function LogIn() {
       <br />
       <button onClick={onClickLogOut}>Log Out</button>
       <br />
-      {isAuth &&
+      {/* {isAuth && */}
         <>
           <button onClick={onClickToggleModerator}>Toggle Moderator Status</button>
           <br />
         </>
-      }
+      {/* } */}
     </div>
   )
 }
