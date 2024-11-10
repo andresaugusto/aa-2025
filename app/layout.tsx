@@ -2,7 +2,7 @@ import './globals.css'
 // import { ReduxProvider } from '@/redux/features/provider'
 import GeistMonoVF from 'next/font/local'
 
-const geistMonoVF = GeistMonoVF({ src: './fonts/geistMonoVF.woff' })
+const geistMonoVF = GeistMonoVF({ src: './fonts/GeistMonoVF.woff' })
 
 export default function RootLayout({
   children,
