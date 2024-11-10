@@ -133,12 +133,12 @@ export const tools: Record<any, any>[] = [
 ]
 export const about: Record<any, any> = {
   greeting: "✌️",
-  p1: "A life, when creative, entitles itself to language. It's how we deliver existence to the world and also the tool we know to process feedback from another. We identify things— we fit them in the context of all else that surrounds us and WE WILL want to stray if something renders itself unapproachable. Take that as the shadow that brings good design to light.",
-  p2: "Tre-flipping, drifting on cambered rubber, gliding along a wave rip, curating spatial and digital experiences, contorting fabric into garments to elevate a body... we all express and are expressed at.",
-  p3: "My full name is Andrés Augusto Ortiz Montalvo, and throught other's and my own mediums, I've dedicated a life to communicating beyond the context of comparatives and predated constructs. Intuitively and pragmatically, I usher creative synthesis and yield ideas for communities to use as language.",
-  footer: "I build homes on the intersection of form and function.",
+  // p1: "A life, when creative, entitles itself to language. It's how we deliver existence to the world and also the tool we know to process feedback from another. We identify things— we fit them in the context of all else that surrounds us and WE WILL want to stray if something renders itself unapproachable. Take that as the shadow that brings good design to light.",
+  // p2: "Tre-flipping, drifting on cambered rubber, gliding along a wave rip, curating spatial and digital experiences, contorting fabric into garments to elevate a body... we all express and are expressed at.",
+  // p3: "My full name is Andrés Augusto Ortiz Montalvo, and throught other's and my own mediums, I've dedicated a life to communicating beyond the context of comparatives and predated constructs. Intuitively and pragmatically, I usher creative synthesis and yield ideas for communities to use as language.",
+  footer: "I form function.",
 }
-export const skills: Record<any, any>[] = [
+export const services: Record<any, any>[] = [
   {
     icon: Monitor,
     title: "UI/UX Design",
@@ -151,8 +151,8 @@ export const skills: Record<any, any>[] = [
   },
   {
     icon: Layers,
-    title: "Digital Asset Creation",
-    description: "Develop high-quality graphics and multimedia content"
+    title: "Graphic Design",
+    description: "Develop high-quality imaging and multimedia content for publishing"
   },
   {
     icon: PenTool,
@@ -170,7 +170,7 @@ export const skills: Record<any, any>[] = [
     description: "Efficiently managing projects from concept to delivery"
   }
 ]
-export const galleryItems: Record<any, any>[] = [
+export const Assets: Record<any, any>[] = [
   {
     title: "Ortiz Mercado + Asociados",
     description: "Geography, hydraulics, and soil planning documentation convening in decades of collaborative experience",

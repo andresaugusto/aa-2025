@@ -8,14 +8,14 @@ import {
 } from '@/components/ui/card'
 import { MotionDiv, MotionDivVisible } from '@/components/Motion'
 
-interface OfferProps {
+interface ServiceProps {
   index?: any
   icon?: any
   title?: string
   description?: string
 }
 
-export default function Offer({ index, icon: Icon, title, description }: OfferProps) {
+export default function Service({ index, icon: Icon, title, description }: ServiceProps) {
   return (
     <MotionDivVisible
       key={index}

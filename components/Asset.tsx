@@ -8,7 +8,7 @@ import {
 } from '@/components/ui/card'
 import { MotionDiv } from '@/components/Motion'
 
-interface GalleryItem {
+interface Asset {
   index?: any
   assetType?: string
   fileType?: string
@@ -23,7 +23,7 @@ interface GalleryItem {
   collaborators?: string[]
 }
 
-export default function GalleryItem({ 
+export default function Asset({ 
   index,
   type,
   source,
@@ -34,7 +34,7 @@ export default function GalleryItem({
   description,
   technologies,
   collaborators,
-}: GalleryItem) {
+}: Asset) {
   return (
     <MotionDiv
       key={index}

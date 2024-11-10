@@ -25,6 +25,13 @@ export default function Hero() {
         >
           AUGUSTO
         </MotionH1>
+        <MotionDiv
+          initial={{ opacity: 0, y: 100 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 2, delay: 1.3 }}
+        >
+          <ChevronDown className="w-10 h-10 mx-auto text-green-400 animate-pulse" />
+        </MotionDiv>
         <div className="grow" />
         <MotionH1
           initial={{ opacity: 0, y: 10, rotateY: -5, rotateX: -90 }}
@@ -49,13 +56,6 @@ export default function Hero() {
         >
           ENGINEER
         </MotionH1>
-        <MotionDiv
-          initial={{ opacity: 0, y: 100 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 2, delay: 1.3 }}
-        >
-          <ChevronDown className="w-10 h-10 mx-auto text-green-400 animate-pulse" />
-        </MotionDiv>
       </div>
     </Section>
   )

@@ -1,7 +1,7 @@
 import Background from '@/components/Background'
 import Hero from '@/components/Hero'
-import Offers from '@/components/Offers'
-import Gallery from '@/components/Gallery'
+import Services from '@/components/Services'
+import Work from '@/components/Work'
 // import Menu from '@/components/Menu'
 // import MotionModules from './MotionModules'
 // import WorkTimeline from '@/components/WorkTimeline'
@@ -15,8 +15,8 @@ export default function LandingPage() {
       <Background />
       {/* <Menu /> */}
       <Hero />
-      <Offers />
-      <Gallery />
+      <Services />
+      <Work />
       {/* <WorkTimeline /> */}
       {/* <Testimonials /> */}
       {/* <Inquire /> */}

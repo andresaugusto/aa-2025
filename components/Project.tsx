@@ -15,16 +15,16 @@ import {
 //   CarouselPrevious,
 // } from "@/components/ui/carousel"
 // import Autoplay from "embla-carousel-autoplay"
-// import GalleryItem from './GalleryItem'
+// import Asset from './Asset'
 
-interface GalleryCollectionsProps {
+interface ProjectProps {
   index: any
   title: string
   description: string
   image?: string,
 }
 
-export default function GalleryCollections({ index, title, description, image }: GalleryCollectionsProps) {
+export default function Project({ index, title, description, image }: ProjectProps) {
 
   return (
     <MotionDiv
