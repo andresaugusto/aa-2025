@@ -1,5 +1,5 @@
 import Baunk from 'next/font/local'
-import { MotionH2, MotionSection, MotionDiv, MotionDivVisible } from '@/components/Motion'
+import { MotionH2, MotionSection, MotionDiv, MotionDivVisible } from '@/components/animation/Motion'
 import { Card, CardHeader } from './ui/card'
 const displayFont = Baunk({ src: '../app/fonts/Baunk.woff' })
 

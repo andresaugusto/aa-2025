@@ -136,34 +136,29 @@ export const about: Record<any, any> = {
   // p1: "A life, when creative, entitles itself to language. It's how we deliver existence to the world and also the tool we know to process feedback from another. We identify things— we fit them in the context of all else that surrounds us and WE WILL want to stray if something renders itself unapproachable. Take that as the shadow that brings good design to light.",
   // p2: "Tre-flipping, drifting on cambered rubber, gliding along a wave rip, curating spatial and digital experiences, contorting fabric into garments to elevate a body... we all express and are expressed at.",
   // p3: "My full name is Andrés Augusto Ortiz Montalvo, and throught other's and my own mediums, I've dedicated a life to communicating beyond the context of comparatives and predated constructs. Intuitively and pragmatically, I usher creative synthesis and yield ideas for communities to use as language.",
-  footer: "I form function.",
+  // footer: "I form function.",
 }
 export const services: Record<any, any>[] = [
   {
     icon: Monitor,
     title: "UI/UX Design",
-    description: "Create intuitive and visually appealing user interfaces"
+    description: "Create intuitive and engaging user experiences"
   },
   {
     icon: Code,
     title: "Frontend Development",
-    description: "Build responsive and performant web applications"
+    description: "Mobile-first, responsive and performant web applications"
   },
   {
     icon: Layers,
     title: "Graphic Design",
-    description: "Develop high-quality imaging and multimedia content for publishing"
+    description: "High-quality imaging and multimedia content for publishing"
   },
   {
     icon: PenTool,
     title: "Prototyping",
     description: "Rapid prototyping for efficient design iterations"
   },
-  // {
-  //   icon: Star,
-  //   title: "User Research",
-  //   description: "Conduct user research to inform design decisions"
-  // },
   {
     icon: Send,
     title: "Project Management",
@@ -263,3 +258,179 @@ export const testimonials:Record<any, any>[] = [
     content: "Their ability to translate complex ideas into intuitive designs is unparalleled. Our customers love the new interface, and it's all thanks to their expertise."
   }
 ]
+export const personalProjects:Record<any, any> = {
+  aa: {
+    title: "aa",
+    id: "aa",
+    genMedia: {
+      images: {
+          mainWide: "https://andresaugusto-aa-media.s3.amazonaws.com/images/aa-ss-main-wide.png",
+          onDevice: {
+              mainDesktop: "https://andresaugusto-aa-media.s3.amazonaws.com/images/aa-ss-main-desktop.png",
+              mainTablet: null,
+              mainPhone: null
+          }
+      },
+      videos: {
+          mainWide1080pFiltered: {
+              poster: "https://andresaugusto-aa-media.s3.amazonaws.com/images/aa-demo-wide-1080p-filtered-poster.png",
+              mp4: "https://andresaugusto-aa-media.s3.amazonaws.com/videos/aa-demo-wide-x4-1080p-filtered.mp4",
+              webm: "https://andresaugusto-aa-media.s3.amazonaws.com/videos/aa-demo-wide-x4-1080p-filtered.webm",
+          },
+          mainWide1080p: {
+              mp4: "https://andresaugusto-aa-media.s3.amazonaws.com/videos/aa-demo-wide-x4-1080p.mp4",
+              webm: null,
+          },
+          mainWide540p: {
+              mp4: "https://andresaugusto-aa-media.s3.amazonaws.com/videos/aa-demo-wide-x4-540p.mp4",
+              webm: "https://andresaugusto-aa-media.s3.amazonaws.com/videos/aa-demo-wide-x4-540p.webm",
+          },
+      },
+    },
+  },
+  avtc: {
+    title: "avtc",
+    id: "avtc",
+    genMedia: {
+      images: {
+          mainWide: "https://andresaugusto-aa-media.s3.amazonaws.com/images/avtc-ss-main-wide.png",
+          onDevice: {
+              mainDesktop: "https://andresaugusto-aa-media.s3.amazonaws.com/images/avtc-ss-main-desktop.png",
+              mainTablet: "https://andresaugusto-aa-media.s3.amazonaws.com/images/avtc-ss-main-tablet.png",
+              mainPhone: "https://andresaugusto-aa-media.s3.amazonaws.com/images/avtc-ss-main-phone.png"
+          }
+      },
+      videos: {
+          mainWide1080pFiltered: {
+              poster: "https://andresaugusto-aa-media.s3.amazonaws.com/images/avtc-demo-wide-1080p-filtered-poster.png",
+              mp4: "https://andresaugusto-aa-media.s3.amazonaws.com/videos/avtc-demo-wide-x4-1080p-filtered.mp4",
+              webm: "https://andresaugusto-aa-media.s3.amazonaws.com/videos/avtc-demo-wide-x4-1080p-filtered.webm",
+          },
+          mainWide1080p: {
+              mp4: "https://andresaugusto-aa-media.s3.amazonaws.com/videos/avtc-demo-wide-x4-1080p.mp4",
+              webm: null,
+          },
+          mainWide540p: {
+              mp4: "https://andresaugusto-aa-media.s3.amazonaws.com/videos/avtc-demo-wide-x4-540p.mp4",
+              webm: "https://andresaugusto-aa-media.s3.amazonaws.com/videos/avtc-demo-wide-x4-540p.webm",
+          },
+      },
+    },
+  },
+  wip: {
+    title: "wip",
+    id: "wip",
+    genMedia: {
+      images: {
+          mainWide: "https://andresaugusto-aa-media.s3.amazonaws.com/images/wip-ss-main-wide.png",
+          onDevice: {
+              mainDesktop: "https://andresaugusto-aa-media.s3.amazonaws.com/images/wip-ss-main-desktop.png",
+              mainTablet: null,
+              mainPhone: null
+          }
+      },
+      videos: {
+          mainWide1080pFiltered: {
+              poster: "https://andresaugusto-aa-media.s3.amazonaws.com/images/wip-demo-wide-1080p-filtered-poster.png",
+              mp4: "https://andresaugusto-aa-media.s3.amazonaws.com/videos/wip-demo-wide-x10-1080p-filtered.mp4",
+              webm: "https://andresaugusto-aa-media.s3.amazonaws.com/videos/wip-demo-wide-x10-1080p-filtered.webm",
+          },
+          mainWide1080p: {
+              mp4: "https://andresaugusto-aa-media.s3.amazonaws.com/videos/wip-demo-wide-x10-1080p.mp4",
+              webm: null,
+          },
+          mainWide540p: {
+              mp4: "https://andresaugusto-aa-media.s3.amazonaws.com/videos/wip-demo-wide-x10-540p.mp4",
+              webm: "https://andresaugusto-aa-media.s3.amazonaws.com/videos/wip-demo-wide-x10-540p.webm",
+          },
+      },
+    },
+  },
+  fire: {
+    title: "fire",
+    id: "fire",
+    genMedia: {
+      images: {
+          mainWide: "https://andresaugusto-aa-media.s3.amazonaws.com/images/fire-ss-main-wide.png",
+          onDevice: {
+              mainDesktop: "https://andresaugusto-aa-media.s3.amazonaws.com/images/fire-ss-main-desktop.png",
+              mainTablet: "https://andresaugusto-aa-media.s3.amazonaws.com/images/fire-ss-main-tablet.png",
+              mainPhone: "https://andresaugusto-aa-media.s3.amazonaws.com/images/fire-ss-main-phone.png"
+          }
+      },
+      videos: {
+          mainWide1080pFiltered: {
+              poster: "https://andresaugusto-aa-media.s3.amazonaws.com/images/fire-demo-wide-1080p-filtered-poster.png",
+              mp4: "https://andresaugusto-aa-media.s3.amazonaws.com/videos/fire-demo-wide-x4-1080p-filtered.mp4",
+              webm: "https://andresaugusto-aa-media.s3.amazonaws.com/videos/fire-demo-wide-x4-1080p-filtered.webm",
+          },
+          mainWide1080p: {
+              mp4: "https://andresaugusto-aa-media.s3.amazonaws.com/videos/fire-demo-wide-x4-1080p.mp4",
+              webm: null,
+          },
+          mainWide540p: {
+              mp4: "https://andresaugusto-aa-media.s3.amazonaws.com/videos/fire-demo-wide-x4-540p.mp4",
+              webm: "https://andresaugusto-aa-media.s3.amazonaws.com/videos/fire-demo-wide-x4-540p.webm",
+          },
+      },
+    },
+  },
+  br: {
+    title: "br",
+    id: "br",
+    genMedia: {
+      images: {
+          mainWide: "https://andresaugusto-aa-media.s3.amazonaws.com/images/br-ss-main-wide.png",
+          onDevice: {
+              mainDesktop: "https://andresaugusto-aa-media.s3.amazonaws.com/images/br-ss-main-desktop.png",
+              mainTablet: "https://andresaugusto-aa-media.s3.amazonaws.com/images/br-ss-main-tablet.png",
+              mainPhone: "https://andresaugusto-aa-media.s3.amazonaws.com/images/br-ss-main-phone.png"
+          }
+      },
+      videos: {
+          mainWide1080pFiltered: {
+              poster: "https://andresaugusto-aa-media.s3.amazonaws.com/images/br-demo-wide-1080p-filtered-poster.png",
+              mp4: "https://andresaugusto-aa-media.s3.amazonaws.com/videos/br-demo-wide-x4-1080p-filtered.mp4",
+              webm: "https://andresaugusto-aa-media.s3.amazonaws.com/videos/br-demo-wide-x4-1080p-filtered.webm",
+          },
+          mainWide1080p: {
+              mp4: "https://andresaugusto-aa-media.s3.amazonaws.com/videos/br-demo-wide-x4-1080p.mp4",
+              webm: null,
+          },
+          mainWide540p: {
+              mp4: "https://andresaugusto-aa-media.s3.amazonaws.com/videos/br-demo-wide-x4-540p.mp4",
+              webm: "https://andresaugusto-aa-media.s3.amazonaws.com/videos/br-demo-wide-x4-540p.webm",
+          },
+      },
+    },
+  },
+  simon: {
+    title: "simon",
+    id: "simon",
+    genMedia: {
+      images: {
+          mainWide: "https://andresaugusto-aa-media.s3.amazonaws.com/images/simon-ss-main-wide.png",
+          onDevice: {
+              mainDesktop: "https://andresaugusto-aa-media.s3.amazonaws.com/images/simon-ss-main-desktop.png",
+              mainTablet: "https://andresaugusto-aa-media.s3.amazonaws.com/images/simon-ss-main-tablet.png",
+              mainPhone: "https://andresaugusto-aa-media.s3.amazonaws.com/images/simon-ss-main-phone.png"
+          }
+      },
+      videos: {
+          mainWide1080pFiltered: {
+              poster: "https://andresaugusto-aa-media.s3.amazonaws.com/images/simon-demo-wide-1080p-filtered-poster.png",
+              mp4: "https://andresaugusto-aa-media.s3.amazonaws.com/videos/simon-demo-wide-x4-1080p-filtered.mp4",
+              webm: "https://andresaugusto-aa-media.s3.amazonaws.com/videos/simon-demo-wide-x4-1080p-filtered.webm",
+          },
+          mainWide1080p: {
+              mp4: "https://andresaugusto-aa-media.s3.amazonaws.com/videos/simon-demo-wide-x4-1080p.mp4",
+              webm: null,
+          },
+          mainWide540p: {
+              mp4: "https://andresaugusto-aa-media.s3.amazonaws.com/videos/simon-demo-wide-x4-540p.mp4",
+              webm: "https://andresaugusto-aa-media.s3.amazonaws.com/videos/simon-demo-wide-x4-540p.webm",
+          },
+      },
+    },
+  },
+}

@@ -4,7 +4,7 @@
 import React from "react"
 import { useRef, useEffect } from 'react'
 import { useDispatch } from "react-redux"
-import { AppDispatch, useAppSelector } from "@/redux/store"
+import { AppDispatch } from "@/redux/store"
 import { motion, useAnimation, useAnimationControls, useInView, useScroll, useTransform  } from "framer-motion"
 import type { HTMLMotionProps } from "framer-motion"
 import { updatePageRef } from "@/redux/features/motion-slice"
@@ -52,8 +52,6 @@ const slideInVariants = {
   hidden: { opacity: 0, y: 75 },
   visible: { opacity: 1, y: 0 },
 }
-
-
 
 const MotionMain = React.forwardRef<HTMLElement, MotionMainProps>(
 
@@ -195,7 +193,6 @@ const MotionP = React.forwardRef<HTMLParagraphElement, MotionPProps>(
     )
   }
 )
-
 
 export { 
   MotionMain,

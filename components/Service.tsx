@@ -6,7 +6,7 @@ import {
   CardHeader,
   CardTitle,
 } from '@/components/ui/card'
-import { MotionDiv, MotionDivVisible } from '@/components/Motion'
+import { MotionDiv, MotionDivVisible } from '@/components/animation/Motion'
 
 interface ServiceProps {
   index?: any

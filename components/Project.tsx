@@ -1,4 +1,4 @@
-import { MotionDiv } from '@/components/Motion'
+import { MotionDiv } from '@/components/animation/Motion'
 import {
   Card,
   CardContent,

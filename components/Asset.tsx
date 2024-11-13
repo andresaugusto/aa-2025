@@ -6,7 +6,7 @@ import {
   CardHeader,
   CardTitle,
 } from '@/components/ui/card'
-import { MotionDiv } from '@/components/Motion'
+import { MotionDiv } from '@/components/animation/Motion'
 
 interface Asset {
   index?: any
